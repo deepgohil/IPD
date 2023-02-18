@@ -1,0 +1,11 @@
+add package req.txt
+pip3 freeze > requirements.txt
+
+Start fast api server
+uvicorn pythonTrans:app --reload
+
+UPDATE pip
+python -m pip install --upgrade pip
+
+pip install all packages
+pip install -r requirements.txt

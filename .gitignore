@@ -1,0 +1,4 @@
+/node_modules/
+/venv/
+.env
+__pycache__/pythonTrans.cpython-310.pyc
