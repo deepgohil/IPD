@@ -54,7 +54,7 @@ def startTrans():
           )
 
             client.publish(
-              PhoneNumber="+918104680835",
+              PhoneNumber="8",
               Message="YOUR TRANSECTION IS SUCESSFULL"
             )
       return {"Hash": str(web3.toHex(tx_hash))}      
